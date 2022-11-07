@@ -1277,6 +1277,12 @@
         docs:"https://docs.rsshub.app/new-media.html#lu-dong-xin-wen-kuai-xun",
         source:[ "/" ],
         target:"/blockbeats/news" } ] },
+  "bloomberg.com":{ _name:"bloomberg",
+    www:[ { title:"Bloomberg",
+        docs:"https://docs.rsshub.app/finance.html##bloomberg-news",
+        source:[ "/:site",
+          "/" ],
+        target:"/bloomberg/:site?" } ] },
   "bluestacks.com":{ _name:"BlueStacks",
     ".":[ { title:"BlueStacks 5 版本日誌",
         docs:"https://docs.rsshub.app/program-update.html#bluestacks",
@@ -1660,6 +1666,16 @@
         docs:"https://docs.rsshub.app/programming.html#cncf",
         source:[ "/reports" ],
         target:"/cncf/reports" } ] },
+  "cngal.org":{ _name:"CnGal",
+    www:[ { title:"每周速报",
+        docs:"https://docs.rsshub.app/anime.html#cngal-mei-zhou-su-bao",
+        source:[ "/",
+          "/weeklynews" ],
+        target:"/cngal/weekly" },
+      { title:"制作者/游戏新闻",
+        docs:"https://docs.rsshub.app/anime.html#cngal-zhi-zuo-zhe-you-xi-xin-wen",
+        source:[ "/entries/index/:id" ],
+        target:"/cngal/entry/:id" } ] },
   "cnjxol.com":{ _name:"南湖清风",
     ".":[ { title:"嘉兴日报",
         docs:"https://docs.rsshub.app/traditional-media.html#nan-hu-qing-feng-jia-xing-ri-bao",
@@ -5434,6 +5450,13 @@
         target:(params, url) => {
                     const cat = url.match(/\?cat=(.*)/);
                     return `/lovelive-anime/topics/${params.abbr}/${null !== cat && cat.length === 2 ? cat[1] : ''}`;
+                } },
+      { title:"Schedule",
+        docs:"https://docs.rsshub.app/anime.html#lovelive-anime-love-live-guan-wang-schedule",
+        source:[ "/schedule/" ],
+        target:(params, url) => {
+                    const cat = url.match(/\?series=(.*)&category=(.*)/);
+                    return `/lovelive-anime/schedules/${null !== cat && cat.length >= 2 ? cat[1] : ''}/${null !== cat && cat.length === 3 ? cat[2] : ''}`;
                 } } ] },
   "luogu.com.cn":{ _name:"洛谷",
     ".":[ { title:"日报",
@@ -8996,6 +9019,11 @@
                         return `/u3c3/search/${keyword}`;
                     }
                 } } ] },
+  "uber.com":{ _name:"Uber Blog",
+    www:[ { title:"Engineering",
+        docs:"https://docs.rsshub.app/blog.html#you-bu",
+        source:[ "/blog/pittsburgh/engineering" ],
+        target:"/uber/blog" } ] },
   "udn.com":{ _name:"聯合新聞網",
     ".":[ { title:"即時新聞",
         docs:"https://docs.rsshub.app/new-media.html#lian-he-xin-wen-wang-ji-shi-xin-wen",

@@ -560,6 +560,12 @@
     "/blockbeats/:channel?": [
         "Fatpandac"
     ],
+    "/bloomberg/:site?": [
+        "bigfei"
+    ],
+    "/bloomberg/": [
+        "bigfei"
+    ],
     "/bluestacks/release/5": [
         "TonyRL"
     ],
@@ -724,6 +730,12 @@
     ],
     "/cncf/:cate?": [
         "Fatpandac"
+    ],
+    "/cngal/entry/:id": [
+        "chengyuhui"
+    ],
+    "/cngal/weekly": [
+        "chengyuhui"
     ],
     "/cnjxol/jxrb/:id?": [
         "nczitzk"
@@ -2459,7 +2471,10 @@
     "/lovelive-anime/news/:option?": [
         "axojhf"
     ],
-    "/lovelive-anime/topics/:abbr/:category?": [
+    "/lovelive-anime/topics/:abbr/:category?/:option?": [
+        "axojhf"
+    ],
+    "/lovelive-anime/schedules/:serie/:category?": [
         "axojhf"
     ],
     "/luogu/contest": [
@@ -3888,6 +3903,9 @@
     ],
     "/u3c3/:type?/:keyword?": [
         "noname1897"
+    ],
+    "/uber/blog/:maxPage?": [
+        "hulb"
     ],
     "/ucas/job/:type?": [
         "Fatpandac"
