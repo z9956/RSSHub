@@ -499,6 +499,12 @@
         source:[ "/information/:id",
           "/" ],
         target:"/aicaijing/information/:id?" } ] },
+  "aiea.org":{ _name:"Asian Innovation and Entrepreneurship Association",
+    www:[ { title:"Seminar Series",
+        docs:"https://docs.rsshub.app/study.html#AIEA-Seminar-Series",
+        source:[ "/0504",
+          "/" ],
+        target:"/aiea/seminars/upcoming" } ] },
   "airchina.com.cn":{ _name:"中国国际航空公司",
     www:[ { title:"服务公告",
         docs:"https://docs.rsshub.app/travel.html#zhong-guo-guo-ji-hang-kong-gong-si",
@@ -1699,7 +1705,12 @@
       { title:"网络首发",
         docs:"https://docs.rsshub.app/journal.html#zhong-guo-zhi-wang-wang-luo-shou-fa",
         source:[ "/knavi/journals/:name/detail" ],
-        target:"/cnki/journals/debut/:name" } ] },
+        target:"/cnki/journals/debut/:name" } ],
+    kns:[ { title:"作者期刊文献",
+        docs:"https://docs.rsshub.app/journal.html#zhong-guo-zhi-wang-zuo-zhe-qi-kan-wen-xian",
+        source:[ "/kcms/detail/knetsearch.aspx",
+          "/" ],
+        target:(_, url) => `/cnki/author/${new URL(url).searchParams.get('code')}` } ] },
   "cntheory.com":{ _name:"理论网",
     paper:[ { title:"学习时报",
         docs:"https://docs.rsshub.app/traditional-media.html#li-lun-wang-xue-xi-shi-bao",
@@ -3119,6 +3130,11 @@
         docs:"https://docs.rsshub.app/government.html#zhong-yang-ji-wei-guo-jia-jian-wei-yao-wen",
         source:[ "/*" ],
         target:(params, url) => `/gov/ccdi/${new URL(url).href.match(/ccdi\.gov\.cn\/(.*)/)[1]}` } ] },
+  "changsha.gov.cn":{ _name:"湖南省人民政府",
+    wlwz:[ { title:"市长信箱",
+        docs:"https://docs.rsshub.app/government.html#hu-nan-sheng-ren-min-zheng-fu",
+        source:[ "/webapp/cs2020/email/*" ],
+        target:"/gov/hunan/changsha/major-email" } ] },
   "cmse.gov.cn":{ _name:"中国载人航天",
     www:[ { title:"综合新闻",
         docs:"https://docs.rsshub.app/government.html#zhong-guo-zai-ren-hang-tian",
@@ -3369,6 +3385,24 @@
         docs:"https://docs.rsshub.app/government.html#guang-zhou-tian-qi-guang-dong-sheng-nei-cheng-shi-yu-jing-xin-hao",
         source:[ "/gz/weatherAlarm/otherCity/" ],
         target:"/gov/guangdong/tqyb/sncsyjxh" } ] },
+  "www.gov.cn":{ _name:"中国政府网",
+    ".":[ { title:"最新政策",
+        docs:"https://docs.rsshub.app/government.html#zhong-guo-zheng-fu-wang",
+        source:[ "/zhengce/zuixin.htm",
+          "/" ],
+        target:"/gov/zhengce/zuixin" },
+      { title:"最新文件",
+        docs:"https://docs.rsshub.app/government.html#zhong-guo-zheng-fu-wang",
+        source:[ "/" ],
+        target:"/gov/zhengce/wenjian" },
+      { title:"信息稿件",
+        docs:"https://docs.rsshub.app/government.html#zhong-guo-zheng-fu-wang",
+        source:[ "/" ],
+        target:"/gov/zhengce/govall" },
+      { title:"国务院政策文件库",
+        docs:"https://docs.rsshub.app/government.html#zhong-guo-zheng-fu-wang",
+        source:[ "/zhengce/zhengceku/:lib" ],
+        target:(params) => `/gov/zhengce/zhengceku/${params.libs}` } ] },
   "xz.gov.cn":{ _name:"徐州市人民政府",
     hrss:[ { title:"徐州市人力资源和社会保障局",
         docs:"https://docs.rsshub.app/government.html#xu-zhou-shi-ren-min-zheng-fu-xu-zhou-shi-ren-li-zi-yuan-he-she-hui-bao-zhang-ju",
@@ -6837,38 +6871,42 @@
         source:[ "/" ],
         target:"/nuist/jwc/:path+" } ] },
   "nyaa.si":{ _name:"nyaa",
-    ".":[ { title:"搜索结果",
-        docs:"https://docs.rsshub.app/multimedia.html#nyaa-sou-suo-jie-guo",
-        source:"/",
+    ".":[ { title:"nyaa 的搜索结果、指定用户、指定用户的搜索结果",
+        docs:"https://docs.rsshub.app/multimedia.html#nyaa",
+        source:[ "/",
+          "/user/:username" ],
         target:(params, url) => {
                     url = new URL(url);
-                    if (url.hostname.split('.')[0] === 'nyaa') {
-                        const searchParams = url.searchParams;
-                        const query = searchParams.has('q') ? searchParams.get('q') : '';
-                        return `/nyaa/search/${query}`;
+                    const username = params.username;
+                    const query = url.searchParams.get('q');
+
+                    let currentURL = '/nyaa';
+                    if (username !== undefined) {
+                        currentURL = `${currentURL}/user/${username}`;
                     }
-                } },
-      { title:"用户",
-        docs:"https://docs.rsshub.app/multimedia.html#nyaa-yong-hu",
-        source:"/user/:username",
-        target:(params, url) => {
-                    url = new URL(url);
-                    if (url.hostname.split('.')[0] === 'nyaa') {
-                        return `/nyaa/user/${params.username}`;
+                    if (query !== null) {
+                        currentURL = `${currentURL}/search/${query}`;
                     }
+                    return currentURL;
                 } } ],
-    sukebei:[ { title:"sukebei 搜索结果",
-        docs:"https://docs.rsshub.app/multimedia.html#nyaa-sukebei-sou-suo-jie-guo",
-        source:"/",
+    sukebei:[ { title:"sukebei 的搜索结果、指定用户、指定用户的搜索结果",
+        docs:"https://docs.rsshub.app/multimedia.html#nyaa",
+        source:[ "/",
+          "/user/:username" ],
         target:(params, url) => {
-                    const searchParams = new URL(url).searchParams;
-                    const query = searchParams.has('q') ? searchParams.get('q') : '';
-                    return `/nyaa/sukebei/search/${query}`;
-                } },
-      { title:"sukebei 用户",
-        docs:"https://docs.rsshub.app/multimedia.html#nyaa-sukebei-yong-hu",
-        source:"/user/:username",
-        target:(params) => `/nyaa/sukebei/user/${params.username}` } ] },
+                    url = new URL(url);
+                    const username = params.username;
+                    const query = url.searchParams.get('q');
+
+                    let currentURL = '/nyaa/sukebei';
+                    if (username !== undefined) {
+                        currentURL = `${currentURL}/user/${username}`;
+                    }
+                    if (query !== null) {
+                        currentURL = `${currentURL}/search/${query}`;
+                    }
+                    return currentURL;
+                } } ] },
   "nytimes.com":{ _name:"纽约时报",
     ".":[ { title:"新闻简报",
         docs:"https://docs.rsshub.app/traditional-media.html#niu-yue-shi-bao",
