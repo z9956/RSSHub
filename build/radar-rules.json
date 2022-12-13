@@ -689,12 +689,25 @@
       }
     ]
   },
+  "github.io": {
+    "_name": "GitHub",
+    "agorahub": [
+      {
+        "title": "共和報",
+        "docs": "https://docs.rsshub.app/new-media.html#ag0ra",
+        "source": [
+          "/pen0"
+        ],
+        "target": "/agora0/pen0"
+      }
+    ]
+  },
   "gitlab.io": {
     "_name": "GitLab",
     "agora0": [
       {
         "title": "零博客",
-        "docs": "https://docs.rsshub.app/blog.html#ling-bo-ke-fen-lei",
+        "docs": "https://docs.rsshub.app/new-media.html#ag0ra",
         "source": [
           "/blog/:category",
           "/"
@@ -2308,6 +2321,20 @@
         "docs": "https://docs.rsshub.app/new-media.html#quan-guo-gang-ao-yan-jiu-hui-fen-lei",
         "source": "/",
         "target": "/cahkms/:category?"
+      }
+    ]
+  },
+  "caijing.com.cn": {
+    "_name": "财经网",
+    "roll": [
+      {
+        "title": "滚动新闻",
+        "docs": "https://docs.rsshub.app/finance.html#cai-jing-wang",
+        "source": [
+          "/index1.html",
+          "/"
+        ],
+        "target": "/caijing/roll"
       }
     ]
   },
@@ -6254,6 +6281,18 @@
           "/redianzhuanti/118742/4122386/4122692/index.html"
         ],
         "target": "/gov/pbc/gzlw"
+      }
+    ]
+  },
+  "sasac.gov.cn": {
+    "_name": "国务院国有资产监督管理委员会",
+    ".": [
+      {
+        "title": "通用",
+        "docs": "https://docs.rsshub.app/other.html#guo-wu-yuan-guo-you-zi-chan-jian-du-guan-li-wei-yuan-hui",
+        "source": [
+          "/*path"
+        ]
       }
     ]
   },
@@ -13749,6 +13788,19 @@
       }
     ]
   },
+  "researchgate.net": {
+    "_name": "ResearchGate",
+    ".": [
+      {
+        "title": "Publications",
+        "docs": "https://docs.rsshub.app/study.html#researchgate",
+        "source": [
+          "/profile/:username"
+        ],
+        "target": "/researchgate/publications/:username"
+      }
+    ]
+  },
   "reuters.com": {
     "_name": "路透社",
     ".": [
@@ -17755,6 +17807,14 @@
           "/co/article"
         ],
         "target": "/ymgal/article/column"
+      },
+      {
+        "title": "本月新作",
+        "docs": "https://docs.rsshub.app/anime.html#yue-mu-galgame",
+        "source": [
+          "/"
+        ],
+        "target": "/ymgal/game/release"
       }
     ]
   },
