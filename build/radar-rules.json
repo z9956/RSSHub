@@ -1,4 +1,66 @@
 {
+  "163.com": {
+    "_name": "网易",
+    "music": [
+      {
+        "title": "云音乐 - 用户歌单",
+        "docs": "https://docs.rsshub.app/multimedia.html#wang-yi-yun-yin-yue",
+        "source": "/"
+      },
+      {
+        "title": "云音乐 - 歌单歌曲",
+        "docs": "https://docs.rsshub.app/multimedia.html#wang-yi-yun-yin-yue",
+        "source": "/"
+      },
+      {
+        "title": "云音乐 - 歌手专辑",
+        "docs": "https://docs.rsshub.app/multimedia.html#wang-yi-yun-yin-yue",
+        "source": "/"
+      },
+      {
+        "title": "云音乐 - 电台节目",
+        "docs": "https://docs.rsshub.app/multimedia.html#wang-yi-yun-yin-yue",
+        "source": "/"
+      }
+    ],
+    "y.music": [
+      {
+        "title": "云音乐 - 用户歌单",
+        "docs": "https://docs.rsshub.app/multimedia.html#wang-yi-yun-yin-yue",
+        "source": "/m/user"
+      },
+      {
+        "title": "云音乐 - 歌单歌曲",
+        "docs": "https://docs.rsshub.app/multimedia.html#wang-yi-yun-yin-yue",
+        "source": "/m/playlist"
+      },
+      {
+        "title": "云音乐 - 歌手专辑",
+        "docs": "https://docs.rsshub.app/multimedia.html#wang-yi-yun-yin-yue",
+        "source": "/m/album"
+      },
+      {
+        "title": "云音乐 - 播单声音",
+        "docs": "https://docs.rsshub.app/multimedia.html#wang-yi-yun-yin-yue",
+        "source": [
+          "/m/radio",
+          "/m/djradio"
+        ]
+      }
+    ]
+  },
+  "591.com.tw": {
+    "_name": "591 租屋網",
+    "rent": [
+      {
+        "title": "所有物件",
+        "docs": "https://docs.rsshub.app/other.html#_591-zu-wu-wang",
+        "source": [
+          "/"
+        ]
+      }
+    ]
+  },
   "2047.name": {
     "_name": "2047",
     ".": [
@@ -560,6 +622,28 @@
         "title": "windows pe",
         "docs": "https://docs.rsshub.app/bbs.html#_423down",
         "source": "/:type"
+      }
+    ]
+  },
+  "500px.com.cn": {
+    "_name": "500px 摄影社区",
+    ".": [
+      {
+        "title": "部落影集",
+        "docs": "https://docs.rsshub.app/picture.html#_500px-she-ying-she-qu",
+        "source": [
+          "/page/tribe/detail"
+        ]
+      },
+      {
+        "title": "摄影师作品",
+        "docs": "https://docs.rsshub.app/picture.html#_500px-she-ying-she-qu",
+        "source": [
+          "/:id",
+          "/community/user-details/:id",
+          "/community/user-details/:id/*"
+        ],
+        "target": "/500px/user/works/:id"
       }
     ]
   },
@@ -2853,6 +2937,68 @@
       }
     ]
   },
+  "cartoonmad.com": {
+    "_name": "動漫狂",
+    ".": [
+      {
+        "title": "漫画更新",
+        "docs": "https://docs.rsshub.app/anime.html#dong-man-kuang",
+        "source": [
+          "/comic/:id"
+        ],
+        "target": "/cartoonmad/comic/:id"
+      }
+    ]
+  },
+  "cas.cn": {
+    "_name": "中国科学院",
+    "www": [
+      {
+        "title": "成果转化",
+        "docs": "https://docs.rsshub.app/university.html#zhong-guo-ke-xue-yuan",
+        "source": [
+          "/cg/:caty?"
+        ],
+        "target": "/cas/cg/:caty?"
+      }
+    ],
+    "www.sim": [
+      {
+        "title": "上海微系统与信息技术研究所 - 科技进展",
+        "docs": "https://docs.rsshub.app/university.html#zhong-guo-ke-xue-yuan",
+        "source": [
+          "/xwzx2016/kyjz/",
+          "/"
+        ],
+        "target": "/cas/sim/kyjz"
+      }
+    ],
+    "www.iee": [
+      {
+        "title": "电工研究所 科研动态",
+        "docs": "https://docs.rsshub.app/university.html#zhong-guo-ke-xue-yuan",
+        "source": [
+          "/xwzx/kydt",
+          "/"
+        ],
+        "target": "/cas/iee/kydt"
+      }
+    ]
+  },
+  "mesalab.cn": {
+    "_name": "中国科学院",
+    "www": [
+      {
+        "title": "信息工程研究所 第二研究室 处理架构组 知识库",
+        "docs": "https://docs.rsshub.app/university.html#zhong-guo-ke-xue-yuan",
+        "source": [
+          "/f/article/articleList",
+          "/"
+        ],
+        "target": "/cas/mesalab/kb"
+      }
+    ]
+  },
   "cast.org.cn": {
     "_name": "中国科学技术协会",
     ".": [
@@ -3929,6 +4075,28 @@
           "/book/:id/*"
         ],
         "target": "/creative-comic/:id"
+      }
+    ]
+  },
+  "crossbell.io": {
+    "_name": "Crossbell",
+    ".": [
+      {
+        "title": "Notes",
+        "docs": "https://docs.rsshub.app/social-media.html#crossbell",
+        "source": "/*",
+        "target": "/notes"
+      }
+    ]
+  },
+  "xlog.app": {
+    "_name": "xLog",
+    ".": [
+      {
+        "title": "Notes",
+        "docs": "https://docs.rsshub.app/social-media.html#crossbell",
+        "source": "/*",
+        "target": "/notes/source/xlog"
       }
     ]
   },
@@ -8004,6 +8172,19 @@
       }
     ]
   },
+  "hitsz.edu.cn": {
+    "_name": "哈尔滨工业大学（深圳）",
+    ".": [
+      {
+        "title": "新闻中心",
+        "docs": "https://docs.rsshub.app/university.html#ha-er-bin-gong-ye-da-xue-shen-zhen",
+        "source": [
+          "/article/:category?",
+          "/subject/:category?"
+        ]
+      }
+    ]
+  },
   "hitwh.edu.cn": {
     "_name": "哈尔滨工业大学（威海）",
     ".": [
@@ -9076,6 +9257,16 @@
           "/"
         ],
         "target": "/islander/top30event"
+      }
+    ]
+  },
+  "issuehunt.io": {
+    "_name": "Issue Hunt",
+    ".": [
+      {
+        "title": "项目悬赏",
+        "docs": "https://docs.rsshub.app/programming.html#issue-hunt-xiang-mu-xuan-shang",
+        "source": "/r/:username/:repo"
       }
     ]
   },
@@ -10579,6 +10770,19 @@
       {
         "title": "Exhibitions",
         "docs": "https://docs.rsshub.app/en/travel.html#the-jewish-museum"
+      }
+    ]
+  },
+  "jiaoliudao.com": {
+    "_name": "交流岛资源网",
+    ".": [
+      {
+        "title": "最新文章",
+        "docs": "https://docs.rsshub.app/blog.html#jiao-liu-dao-zi-yuan-wang",
+        "source": [
+          "/"
+        ],
+        "target": "/jiaoliudao"
       }
     ]
   },
@@ -12174,6 +12378,45 @@
       }
     ]
   },
+  "misskey.io": {
+    "_name": "Misskey",
+    ".": [
+      {
+        "title": "Featured Notes",
+        "docs": "https://docs.rsshub.app/social-media.html#misskey",
+        "source": [
+          "/explore"
+        ],
+        "target": "/misskey/notes/featured/misskey.io"
+      }
+    ]
+  },
+  "madost.one": {
+    "_name": "Misskey",
+    ".": [
+      {
+        "title": "Featured Notes",
+        "docs": "https://docs.rsshub.app/social-media.html#misskey",
+        "source": [
+          "/explore"
+        ],
+        "target": "/misskey/notes/featured/madost.one"
+      }
+    ]
+  },
+  "mk.nixnet.social": {
+    "_name": "Misskey",
+    ".": [
+      {
+        "title": "Featured Notes",
+        "docs": "https://docs.rsshub.app/social-media.html#misskey",
+        "source": [
+          "/explore"
+        ],
+        "target": "/misskey/notes/featured/mk.nixnet.social"
+      }
+    ]
+  },
   "mixcloud.com": {
     "_name": "Mixcloud",
     "www": [
@@ -12898,78 +13141,6 @@
           "/"
         ],
         "target": "/neatdownloadmanager/download/:os?"
-      }
-    ]
-  },
-  "163.com": {
-    "_name": "网易",
-    "ds": [
-      {
-        "title": "大神",
-        "docs": "https://docs.rsshub.app/game.html#wang-yi-da-shen",
-        "source": "/user/:id",
-        "target": "/netease/ds/:id"
-      }
-    ],
-    "open": [
-      {
-        "title": "公开课 - 精品课程",
-        "docs": "https://docs.rsshub.app/study.html#wang-yi-gong-kai-ke",
-        "source": "/",
-        "target": "/open163/vip"
-      },
-      {
-        "title": "公开课 - 最新课程",
-        "docs": "https://docs.rsshub.app/study.html#wang-yi-gong-kai-ke",
-        "source": "/",
-        "target": "/open163/latest"
-      }
-    ],
-    "music": [
-      {
-        "title": "云音乐 - 用户歌单",
-        "docs": "https://docs.rsshub.app/multimedia.html#wang-yi-yun-yin-yue",
-        "source": "/"
-      },
-      {
-        "title": "云音乐 - 歌单歌曲",
-        "docs": "https://docs.rsshub.app/multimedia.html#wang-yi-yun-yin-yue",
-        "source": "/"
-      },
-      {
-        "title": "云音乐 - 歌手专辑",
-        "docs": "https://docs.rsshub.app/multimedia.html#wang-yi-yun-yin-yue",
-        "source": "/"
-      },
-      {
-        "title": "云音乐 - 电台节目",
-        "docs": "https://docs.rsshub.app/multimedia.html#wang-yi-yun-yin-yue",
-        "source": "/"
-      }
-    ],
-    "y.music": [
-      {
-        "title": "云音乐 - 用户歌单",
-        "docs": "https://docs.rsshub.app/multimedia.html#wang-yi-yun-yin-yue",
-        "source": "/m/user"
-      },
-      {
-        "title": "云音乐 - 歌单歌曲",
-        "docs": "https://docs.rsshub.app/multimedia.html#wang-yi-yun-yin-yue",
-        "source": "/m/playlist"
-      },
-      {
-        "title": "云音乐 - 歌手专辑",
-        "docs": "https://docs.rsshub.app/multimedia.html#wang-yi-yun-yin-yue",
-        "source": "/m/album"
-      },
-      {
-        "title": "云音乐 - 播单声音",
-        "docs": "https://docs.rsshub.app/multimedia.html#wang-yi-yun-yin-yue",
-        "source": [
-          "/m/radio",
-          "/m/djradio"
-        ]
       }
     ]
   },
@@ -14068,7 +14239,7 @@
     "hk": [
       {
         "title": "港澳",
-        "docs": "https://docs.rsshub.app/other.html#guo-jia-zi-ran-ke-xue-ji-jin-wei-yuan-hui",
+        "docs": "https://docs.rsshub.app/traditional-media.html#dong-wang",
         "source": [
           "/hk/news/index.html",
           "/hk/news/index_cn.html"
@@ -14077,7 +14248,7 @@
       },
       {
         "title": "两岸",
-        "docs": "https://docs.rsshub.app/other.html#guo-jia-zi-ran-ke-xue-ji-jin-wei-yuan-hui",
+        "docs": "https://docs.rsshub.app/traditional-media.html#dong-wang",
         "source": [
           "/hk/cnnews/index.html",
           "/hk/cnnews/index_cn.html"
@@ -14086,7 +14257,7 @@
       },
       {
         "title": "国际",
-        "docs": "https://docs.rsshub.app/other.html#guo-jia-zi-ran-ke-xue-ji-jin-wei-yuan-hui",
+        "docs": "https://docs.rsshub.app/traditional-media.html#dong-wang",
         "source": [
           "/hk/intnews/index.html",
           "/hk/intnews/index_cn.html"
@@ -14095,7 +14266,7 @@
       },
       {
         "title": "评论",
-        "docs": "https://docs.rsshub.app/other.html#guo-jia-zi-ran-ke-xue-ji-jin-wei-yuan-hui",
+        "docs": "https://docs.rsshub.app/traditional-media.html#dong-wang",
         "source": [
           "/hk/commentary/index.html",
           "/hk/commentary/index_cn.html"
@@ -14104,12 +14275,21 @@
       },
       {
         "title": "产经",
-        "docs": "https://docs.rsshub.app/other.html#guo-jia-zi-ran-ke-xue-ji-jin-wei-yuan-hui",
+        "docs": "https://docs.rsshub.app/traditional-media.html#dong-wang",
         "source": [
           "/hk/finance/index.html",
           "/hk/finance/index_cn.html"
         ],
         "target": "/oncc/zh-hans/finance"
+      }
+    ],
+    "money18": [
+      {
+        "title": "產經",
+        "docs": "https://docs.rsshub.app/traditional-media.html#dong-wang",
+        "source": [
+          "/finnews/news_breaking.html"
+        ]
       }
     ]
   },
@@ -14432,6 +14612,19 @@
         "docs": "https://docs.rsshub.app/social-media.html#pixiv",
         "source": "/bookmark_new_illust.php",
         "target": "/pixiv/user/illustfollows"
+      }
+    ]
+  },
+  "piyao.org.cn": {
+    "_name": "中国互联网联合辟谣平台",
+    ".": [
+      {
+        "title": "今日辟谣",
+        "docs": "https://docs.rsshub.app/other.html#zhong-guo-hu-lian-wang-lian-he-pi-yao-ping-tai",
+        "source": [
+          "/jrpy/index.htm"
+        ],
+        "target": "/piyao/jrpy"
       }
     ]
   },
@@ -16771,6 +16964,14 @@
         "target": "/sspai/author/:id"
       },
       {
+        "title": "用户收藏",
+        "docs": "https://docs.rsshub.app/new-media.html#shao-shu-pai-sspai",
+        "source": [
+          "/u/:slug/bookmark_posts"
+        ],
+        "target": "/sspai/bookmarks/:slug"
+      },
+      {
         "title": "专题",
         "docs": "https://docs.rsshub.app/new-media.html#shao-shu-pai-sspai",
         "source": "/topics",
@@ -16922,6 +17123,19 @@
           "/"
         ],
         "target": "/swissinfo/:language?/:category?"
+      }
+    ]
+  },
+  "swjtu.edu.cn": {
+    "_name": "西南交通大学",
+    "ctt": [
+      {
+        "title": "交通运输与物流学院 - 研究生通知",
+        "docs": "https://docs.rsshub.app/university.html#xi-nan-jiao-tong-da-xue",
+        "source": [
+          "/yethan/WebIndexAction",
+          "/"
+        ]
       }
     ]
   },
@@ -18885,6 +19099,18 @@
       }
     ]
   },
+  "xlab.app": {
+    "_name": "微信",
+    "wechat2rss": [
+      {
+        "title": "公众号（wechat2rss 来源）",
+        "docs": "https://docs.rsshub.app/new-media.html#wei-xin",
+        "source": [
+          "/feed/:id"
+        ]
+      }
+    ]
+  },
   "weibo.cn": {
     "_name": "微博",
     "m": [
@@ -19969,6 +20195,19 @@
       }
     ]
   },
+  "yuque.com": {
+    "_name": "语雀",
+    ".": [
+      {
+        "title": "知识库",
+        "docs": "https://docs.rsshub.app/study.html#yu-que",
+        "source": [
+          ":name/:book"
+        ],
+        "target": "/yuque/:name/:book"
+      }
+    ]
+  },
   "yxdown.com": {
     "_name": "游讯网",
     ".": [
@@ -20342,6 +20581,16 @@
   },
   "zhibo8.cc": {
     "_name": "直播吧",
+    ".": [
+      {
+        "title": "录像",
+        "docs": "https://docs.rsshub.app/multimedia.html#zhi-bo-ba",
+        "source": [
+          "/:category/luxiang.htm"
+        ],
+        "target": "/zhibo8/luxiang/:category"
+      }
+    ],
     "bbs": [
       {
         "title": "子论坛",
@@ -21433,18 +21682,6 @@
         "docs": "http://docs.rsshub.app/en/university.html#umass-amherst",
         "source": "/ipo/iss/featured-stories",
         "target": "/umass/amherst/ipostories"
-      }
-    ]
-  },
-  "yuque.com": {
-    "_name": "语雀",
-    "www": [
-      {
-        "title": "知识库",
-        "docs": "https://docs.rsshub.app/study.html#yu-que",
-        "source": [
-          "/:space/:book"
-        ]
       }
     ]
   },
