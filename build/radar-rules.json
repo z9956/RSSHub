@@ -3224,74 +3224,13 @@
   },
   "cankaoxiaoxi.com": {
     "_name": "参考消息",
-    "china": [
+    ".": [
       {
-        "title": "中国新闻",
-        "docs": "https://docs.rsshub.app/traditional-media.html#can-kao-xiao-xi",
+        "title": "栏目",
+        "docs": "https://docs.rsshub.app/traditional-media.html#can-kao-xiao-xi-lan-mu",
         "source": [
           "/"
-        ],
-        "target": "/cankaoxiaoxi/news/china_news"
-      }
-    ],
-    "culture": [
-      {
-        "title": "文化新闻",
-        "docs": "https://docs.rsshub.app/traditional-media.html#can-kao-xiao-xi",
-        "source": [
-          "/"
-        ],
-        "target": "/cankaoxiaoxi/news/culture_news"
-      }
-    ],
-    "finance": [
-      {
-        "title": "财经新闻",
-        "docs": "https://docs.rsshub.app/traditional-media.html#can-kao-xiao-xi",
-        "source": [
-          "/"
-        ],
-        "target": "/cankaoxiaoxi/news/finance_news"
-      }
-    ],
-    "mil": [
-      {
-        "title": "军事新闻",
-        "docs": "https://docs.rsshub.app/traditional-media.html#can-kao-xiao-xi",
-        "source": [
-          "/"
-        ],
-        "target": "/cankaoxiaoxi/news/military_news"
-      }
-    ],
-    "science": [
-      {
-        "title": "科技新闻",
-        "docs": "https://docs.rsshub.app/traditional-media.html#can-kao-xiao-xi",
-        "source": [
-          "/"
-        ],
-        "target": "/cankaoxiaoxi/news/technology_news"
-      }
-    ],
-    "tw": [
-      {
-        "title": "台海新闻",
-        "docs": "https://docs.rsshub.app/traditional-media.html#can-kao-xiao-xi",
-        "source": [
-          "/"
-        ],
-        "target": "/cankaoxiaoxi/news/taiwan_news"
-      }
-    ],
-    "world": [
-      {
-        "title": "国际新闻",
-        "docs": "https://docs.rsshub.app/traditional-media.html#can-kao-xiao-xi",
-        "source": [
-          "/"
-        ],
-        "target": "/cankaoxiaoxi/news/world_news"
+        ]
       }
     ]
   },
@@ -3714,6 +3653,18 @@
       }
     ]
   },
+  "chiculture.org.hk": {
+    "_name": "通識・現代中國",
+    ".": [
+      {
+        "title": "議題熱話",
+        "docs": "https://docs.rsshub.app/new-media.html#tong-shi-・-xian-dai-zhong-guo",
+        "source": [
+          "/tc/hot-topics"
+        ]
+      }
+    ]
+  },
   "china.com": {
     "_name": "中华网",
     "military": [
@@ -3827,12 +3778,28 @@
     "_name": "中国研究生招生信息网",
     "yz": [
       {
+        "title": "考研热点新闻",
+        "docs": "https://docs.rsshub.app/study.html#zhong-guo-yan-jiu-sheng-zhao-sheng-xin-xi-wang",
+        "source": [
+          "/"
+        ],
+        "target": "/chsi/hotnews"
+      },
+      {
         "title": "考研动态",
         "docs": "https://docs.rsshub.app/study.html#zhong-guo-yan-jiu-sheng-zhao-sheng-xin-xi-wang",
         "source": [
           "/kyzx/kydt"
         ],
         "target": "/chsi/kydt"
+      },
+      {
+        "title": "考研资讯",
+        "docs": "https://docs.rsshub.app/study.html#zhong-guo-yan-jiu-sheng-zhao-sheng-xin-xi-wang",
+        "source": [
+          "/kyzx/:type"
+        ],
+        "target": "/chsi/kyzx/:type"
       }
     ]
   },
@@ -6921,6 +6888,22 @@
           "/"
         ],
         "target": "/gcores/tag/:tag"
+      },
+      {
+        "title": "播客",
+        "docs": "https://docs.rsshub.app/new-media.html#ji-he-wang-bo-ke",
+        "source": [
+          "/radios"
+        ],
+        "target": "/gcores/radios"
+      },
+      {
+        "title": "播客-分类",
+        "docs": "https://docs.rsshub.app/new-media.html#ji-he-wang-bo-ke",
+        "source": [
+          "/categories/:category"
+        ],
+        "target": "/gcores/radios/:category"
       }
     ]
   },
@@ -8436,6 +8419,30 @@
       }
     ]
   },
+  "gzdaily.cn": {
+    "_name": "广州日报",
+    ".": [
+      {
+        "title": "客户端",
+        "docs": "https://docs.rsshub.app/traditional-media.html#guang-zhou-ri-bao",
+        "source": [
+          "/"
+        ]
+      }
+    ]
+  },
+  "gz-cmc.com": {
+    "_name": "广州日报",
+    "huacheng": [
+      {
+        "title": "新花城（广州市融媒体中心）",
+        "docs": "https://docs.rsshub.app/traditional-media.html#guang-zhou-ri-bao",
+        "source": [
+          "/"
+        ]
+      }
+    ]
+  },
   "gzh360.com": {
     "_name": "公众号360",
     "web": [
@@ -9828,6 +9835,13 @@
         "source": [
           "/stream/user/:user/tag/:tag/*"
         ]
+      },
+      {
+        "title": "RSS",
+        "docs": "https://docs.rsshub.app/reading.html#inoreader",
+        "source": [
+          "/stream/user/:user/tag/:tag"
+        ]
       }
     ]
   },
@@ -9849,6 +9863,26 @@
           "/explore/tags/:key"
         ],
         "target": "/instagram/tags/:key"
+      }
+    ]
+  },
+  "instructables.com": {
+    "_name": "Instructables",
+    ".": [
+      {
+        "title": "All Projects - Instructables",
+        "docs": "https://docs.rsshub.app/other.html#instructables",
+        "source": [
+          "/projects"
+        ],
+        "target": "/instructables/projects"
+      },
+      {
+        "title": "Projects - Instructables",
+        "docs": "https://docs.rsshub.app/other.html#instructables",
+        "source": [
+          "/:category/projects"
+        ]
       }
     ]
   },
@@ -11556,6 +11590,31 @@
       }
     ]
   },
+  "jou.edu.cn": {
+    "_name": "江苏海洋大学",
+    "www": [
+      {
+        "title": "通知公告",
+        "docs": "https://docs.rsshub.app/university.html#jiang-su-hai-yang-da-xue-guan-wang-tong-zhi-gong-gao",
+        "source": [
+          "/index/tzgg.htm",
+          "/"
+        ],
+        "target": "/jou/tzgg"
+      }
+    ],
+    "yz": [
+      {
+        "title": "研招通知公告",
+        "docs": "https://docs.rsshub.app/university.html#jiang-su-hai-yang-da-xue-yan-zhao-wang-tong-zhi-gong-gao",
+        "source": [
+          "/index/zxgg.htm",
+          "/"
+        ],
+        "target": "/jou/yztzgg"
+      }
+    ]
+  },
   "jseea.cn": {
     "_name": "江苏省教育考试院",
     ".": [
@@ -13132,6 +13191,45 @@
       }
     ]
   },
+  "modelscope.cn": {
+    "_name": "ModelScope 魔搭社区",
+    ".": [
+      {
+        "title": "数据集",
+        "docs": "https://docs.rsshub.app/programming.html#modelscope-mo-da-she-qu",
+        "source": [
+          "/datasets"
+        ],
+        "target": "/modelscope/datasets"
+      },
+      {
+        "title": "模型库",
+        "docs": "https://docs.rsshub.app/programming.html#modelscope-mo-da-she-qu",
+        "source": [
+          "/models"
+        ],
+        "target": "/modelscope/models"
+      },
+      {
+        "title": "创空间",
+        "docs": "https://docs.rsshub.app/programming.html#modelscope-mo-da-she-qu",
+        "source": [
+          "/studios"
+        ],
+        "target": "/modelscope/studios"
+      }
+    ],
+    "community": [
+      {
+        "title": "DevPress 官方社区",
+        "docs": "https://docs.rsshub.app/programming.html#modelscope-mo-da-she-qu",
+        "source": [
+          "/"
+        ],
+        "target": "/modelscope/community"
+      }
+    ]
+  },
   "mohw.gov.tw": {
     "_name": "台灣衛生福利部",
     ".": [
@@ -13898,6 +13996,26 @@
       }
     ]
   },
+  "newzmz.com": {
+    "_name": "NEW 字幕组",
+    ".": [
+      {
+        "title": "分类",
+        "docs": "https://docs.rsshub.app/multimedia.html#new-zi-mu-zu",
+        "source": [
+          "/"
+        ],
+        "target": "/newzmz"
+      },
+      {
+        "title": "指定剧集",
+        "docs": "https://docs.rsshub.app/multimedia.html#new-zi-mu-zu",
+        "source": [
+          "/view/:id"
+        ]
+      }
+    ]
+  },
   "nextapple.com": {
     "_name": "壹蘋新聞網",
     "tw": [
@@ -13982,6 +14100,26 @@
           "/"
         ],
         "target": "/ngocn2/:category?"
+      }
+    ]
+  },
+  "nhentai.net": {
+    "_name": "nhentai",
+    ".": [
+      {
+        "title": "分类筛选",
+        "docs": "https://docs.rsshub.app/anime.html#nhentai",
+        "source": [
+          "/:key/:keyword"
+        ],
+        "target": "/nhentai/:key/:keyword"
+      },
+      {
+        "title": "高级搜索",
+        "docs": "https://docs.rsshub.app/anime.html#nhentai",
+        "source": [
+          "/search"
+        ]
       }
     ]
   },
@@ -14476,10 +14614,21 @@
   },
   "njxzc.edu.cn": {
     "_name": "南京晓庄学院",
+    "lib": [
+      {
+        "title": "图书馆通知公告",
+        "docs": "https://docs.rsshub.app/university.html#nan-jing-xiao-zhuang-xue-yuan-guan-wang-tong-zhi-gong-gao",
+        "source": [
+          "/pxyhd/list.htm",
+          "/"
+        ],
+        "target": "/njxzc/libtzgg"
+      }
+    ],
     "www": [
       {
         "title": "通知公告",
-        "docs": "https://docs.rsshub.app/university.html#nan-jing-xiao-zhuang-xue-yuan-tong-zhi-gong-gao",
+        "docs": "https://docs.rsshub.app/university.html#nan-jing-xiao-zhuang-xue-yuan-tu-shu-guan-tong-zhi-gong-gao",
         "source": [
           "/89/list.htm",
           "/"
@@ -15868,6 +16017,32 @@
           "/"
         ],
         "target": "/qbittorrent/news"
+      }
+    ]
+  },
+  "qdaily.com": {
+    "_name": "好奇心日报",
+    ".": [
+      {
+        "title": "标签",
+        "docs": "https://docs.rsshub.app/new-media.html#hao-qi-xin-ri-bao",
+        "source": [
+          "/tags/:id"
+        ]
+      },
+      {
+        "title": "栏目",
+        "docs": "https://docs.rsshub.app/new-media.html#hao-qi-xin-ri-bao",
+        "source": [
+          "/special_columns/:id"
+        ]
+      },
+      {
+        "title": "分类",
+        "docs": "https://docs.rsshub.app/new-media.html#hao-qi-xin-ri-bao",
+        "source": [
+          "/categories/:id"
+        ]
       }
     ]
   },
@@ -18399,6 +18574,17 @@
       }
     ]
   },
+  "techcrunch.com": {
+    "_name": "TechCrunch",
+    ".": [
+      {
+        "title": "新闻",
+        "docs": "https://docs.rsshub.app/new-media.html#techcrunch",
+        "source": "/",
+        "target": "/techcrunch/news"
+      }
+    ]
+  },
   "techflowpost.com": {
     "_name": "深潮TechFlow",
     ".": [
@@ -20080,6 +20266,19 @@
           "/"
         ],
         "target": "/wangqiutiyu/anchor/:id"
+      }
+    ]
+  },
+  "wanqu.co": {
+    "_name": "湾区日报",
+    ".": [
+      {
+        "title": "最新推荐",
+        "docs": "https://docs.rsshub.app/new-media.html#wan-qu-ri-bao",
+        "source": [
+          "/"
+        ],
+        "target": "/wanqu/news"
       }
     ]
   },
