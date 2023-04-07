@@ -524,6 +524,75 @@
       }
     ]
   },
+  "1point3acres.com": {
+    "_name": "一亩三分地",
+    "blog": [
+      {
+        "title": "博客",
+        "docs": "https://docs.rsshub.app/bbs.html#yi-mu-san-fen-di",
+        "source": [
+          "/:category"
+        ],
+        "target": "/1point3acres/blog/:category?"
+      }
+    ],
+    "instant": [
+      {
+        "title": "帖子",
+        "docs": "https://docs.rsshub.app/bbs.html#yi-mu-san-fen-di",
+        "source": [
+          "/"
+        ],
+        "target": "/1point3acres/thread/:type?/:order?"
+      },
+      {
+        "title": "分区",
+        "docs": "https://docs.rsshub.app/bbs.html#yi-mu-san-fen-di",
+        "source": [
+          "/section/:id",
+          "/"
+        ],
+        "target": "/1point3acres/section/:id?/:type?/:order?"
+      },
+      {
+        "title": "标签",
+        "docs": "https://docs.rsshub.app/bbs.html#yi-mu-san-fen-di",
+        "source": [
+          "/section/:id",
+          "/"
+        ],
+        "target": "/1point3acres/category/:id?/:type?/:order?"
+      },
+      {
+        "title": "用户主题帖",
+        "docs": "https://docs.rsshub.app/bbs.html#yi-mu-san-fen-di",
+        "source": [
+          "/profile/:id",
+          "/"
+        ],
+        "target": "/1point3acres/user/:id/threads"
+      },
+      {
+        "title": "用户回帖",
+        "docs": "https://docs.rsshub.app/bbs.html#yi-mu-san-fen-di",
+        "source": [
+          "/profile/:id",
+          "/"
+        ],
+        "target": "/1point3acres/user/:id/posts"
+      }
+    ],
+    "offer": [
+      {
+        "title": "录取结果",
+        "docs": "https://docs.rsshub.app/bbs.html#yi-mu-san-fen-di",
+        "source": [
+          "/"
+        ],
+        "target": "/1point3acres/offer"
+      }
+    ]
+  },
   "2cycd.com": {
     "_name": "二次元虫洞",
     ".": [
@@ -7767,7 +7836,7 @@
         "source": [
           "/*"
         ],
-        "target": "/sichuan/deyang/govpulicinfo/:countyName"
+        "target": "/sichuan/deyang/govpublicinfo/:countyName"
       }
     ]
   },
@@ -8081,6 +8150,19 @@
         "source": [
           "/7204/7246/"
         ]
+      }
+    ]
+  },
+  "mztoday.gov.cn": {
+    "_name": "德阳市人民政府",
+    "www": [
+      {
+        "title": "今日绵竹",
+        "docs": "https://docs.rsshub.app/government.html#de-yang-shi-ren-min-zheng-fu",
+        "source": [
+          "/*"
+        ],
+        "target": "/gov/sichuan/deyang/mztoday"
       }
     ]
   },
@@ -9748,6 +9830,11 @@
       },
       {
         "title": "Recent",
+        "docs": "https://docs.rsshub.app/journal.html#ieee-xplore",
+        "source": "/*"
+      },
+      {
+        "title": "Early Access Journal",
         "docs": "https://docs.rsshub.app/journal.html#ieee-xplore",
         "source": "/*"
       }
@@ -17511,6 +17598,75 @@
       }
     ]
   },
+  "setn.com": {
+    "_name": "三立新聞網",
+    ".": [
+      {
+        "title": "新聞",
+        "docs": "https://docs.rsshub.app/traditional-media.html#san-li-xin-wen-wang-xin-wen",
+        "source": [
+          "/ViewAll.aspx",
+          "/"
+        ],
+        "target": "/setn"
+      }
+    ],
+    "star": [
+      {
+        "title": "娛樂新聞",
+        "docs": "https://docs.rsshub.app/traditional-media.html#san-li-xin-wen-wang-xin-wen",
+        "source": [
+          "/viewall",
+          "/"
+        ],
+        "target": "/setn/娛樂"
+      }
+    ],
+    "health": [
+      {
+        "title": "健康新聞",
+        "docs": "https://docs.rsshub.app/traditional-media.html#san-li-xin-wen-wang-xin-wen",
+        "source": [
+          "/viewall",
+          "/"
+        ],
+        "target": "/setn/健康"
+      }
+    ],
+    "travel": [
+      {
+        "title": "旅遊新聞",
+        "docs": "https://docs.rsshub.app/traditional-media.html#san-li-xin-wen-wang-xin-wen",
+        "source": [
+          "/viewall",
+          "/"
+        ],
+        "target": "/setn/旅遊"
+      }
+    ],
+    "fuhouse": [
+      {
+        "title": "富房網新聞",
+        "docs": "https://docs.rsshub.app/traditional-media.html#san-li-xin-wen-wang-xin-wen",
+        "source": [
+          "/viewall",
+          "/"
+        ],
+        "target": "/setn/富房網"
+      }
+    ],
+    "watch": [
+      {
+        "title": "女孩新聞",
+        "docs": "https://docs.rsshub.app/traditional-media.html#san-li-xin-wen-wang-xin-wen",
+        "source": [
+          "/viewall",
+          "/"
+        ],
+        "target": "/setn/女孩"
+      }
+    ]
+  },
   "shiep.edu.cn": {
     "_name": "上海电力大学",
     "dqxy": [
@@ -18224,6 +18380,18 @@
       }
     ]
   },
+  "nfapp.southcn.com": {
+    "_name": "南方网",
+    ".": [
+      {
+        "title": "南方+",
+        "docs": "https://docs.rsshub.app/traditional-media.html#nan-fang-wang",
+        "source": [
+          "/"
+        ]
+      }
+    ]
+  },
   "spotify.com": {
     "_name": "Spotify",
     "open": [
@@ -18508,6 +18676,15 @@
           "/"
         ],
         "target": "/studygolang/jobs"
+      },
+      {
+        "title": "周刊",
+        "docs": "https://docs.rsshub.app/programming.html#go-yu-yan-zhong-wen-wang",
+        "source": [
+          "/go/weekly",
+          "/"
+        ],
+        "target": "/studygolang/weekly"
       }
     ]
   },
