@@ -881,6 +881,91 @@
       }
     ]
   },
+  "6parkbbs.com": {
+    "_name": "留园网",
+    "club": [
+      {
+        "title": "分站",
+        "docs": "https://docs.rsshub.app/new-media.html#liu-yuan-wang",
+        "source": [
+          "/:id/index.php",
+          "/"
+        ],
+        "target": "/6park/:id?"
+      },
+      {
+        "title": "精华区",
+        "docs": "https://docs.rsshub.app/new-media.html#liu-yuan-wang",
+        "source": [
+          "/:id/index.php",
+          "/"
+        ],
+        "target": "/6park/:id/gold"
+      },
+      {
+        "title": "搜索关键字",
+        "docs": "https://docs.rsshub.app/new-media.html#liu-yuan-wang",
+        "source": [
+          "/:id/index.php",
+          "/"
+        ]
+      }
+    ],
+    "local": [
+      {
+        "title": "新闻栏目",
+        "docs": "https://docs.rsshub.app/new-media.html#liu-yuan-wang",
+        "source": [
+          "/index.php",
+          "/"
+        ]
+      },
+      {
+        "title": "头条精选",
+        "docs": "https://docs.rsshub.app/new-media.html#liu-yuan-wang",
+        "source": [
+          "/index.php",
+          "/"
+        ],
+        "target": "/6park/news/newspark/gold"
+      },
+      {
+        "title": "新闻搜索",
+        "docs": "https://docs.rsshub.app/new-media.html#liu-yuan-wang",
+        "source": [
+          "/index.php",
+          "/"
+        ]
+      }
+    ],
+    "newspark": [
+      {
+        "title": "新闻栏目",
+        "docs": "https://docs.rsshub.app/new-media.html#liu-yuan-wang",
+        "source": [
+          "/newspark/index.php",
+          "/"
+        ]
+      },
+      {
+        "title": "头条精选",
+        "docs": "https://docs.rsshub.app/new-media.html#liu-yuan-wang",
+        "source": [
+          "/newspark/index.php",
+          "/"
+        ],
+        "target": "/6park/news/newspark/gold"
+      },
+      {
+        "title": "新闻搜索",
+        "docs": "https://docs.rsshub.app/new-media.html#liu-yuan-wang",
+        "source": [
+          "/newspark/index.php",
+          "/"
+        ]
+      }
+    ]
+  },
   "hao6v.cc": {
     "_name": "6v电影",
     ".": [
@@ -6854,6 +6939,27 @@
         "docs": "https://docs.rsshub.app/program-update.html#fosshub-software-update",
         "source": [
           "/"
+        ]
+      }
+    ]
+  },
+  "freecomputerbooks.com": {
+    "_name": "Free Computer Books",
+    ".": [
+      {
+        "title": "Selected New Books",
+        "docs": "https://docs.rsshub.app/en/reading.html#free-computer-books",
+        "source": [
+          "/",
+          "/index.html"
+        ],
+        "target": "/freecomputerbooks"
+      },
+      {
+        "title": "Current Book List",
+        "docs": "https://docs.rsshub.app/en/reading.html#free-computer-books",
+        "source": [
+          "/:category"
         ]
       }
     ]
@@ -13048,6 +13154,20 @@
       }
     ]
   },
+  "macmenubar.com": {
+    "_name": "MacMenuBar",
+    ".": [
+      {
+        "title": "Recently Added",
+        "docs": "https://docs.rsshub.app/other.html#macmenubar",
+        "source": [
+          "/recently-added",
+          "/:category"
+        ],
+        "target": "/macmenubar/recently/category"
+      }
+    ]
+  },
   "magazinelib.com": {
     "_name": "magazineLib",
     ".": [
@@ -14382,6 +14502,19 @@
       {
         "title": "Exhibitions",
         "docs": "https://docs.rsshub.app/en/travel.html#new-museum"
+      }
+    ]
+  },
+  "newrank.cn": {
+    "_name": "新榜",
+    ".": [
+      {
+        "title": "微信公众号",
+        "docs": "https://docs.rsshub.app/social-media.html#xin-bang"
+      },
+      {
+        "title": "抖音短视频",
+        "docs": "https://docs.rsshub.app/social-media.html#xin-bang"
       }
     ]
   },
@@ -17157,6 +17290,19 @@
       }
     ]
   },
+  "sass.org.cn": {
+    "_name": "上海社会科学院",
+    "gs": [
+      {
+        "title": "研究生院",
+        "docs": "https://docs.rsshub.app/university.html#shang-hai-she-hui-ke-xue-yuan-yan-jiu-sheng-yuan",
+        "source": [
+          "/:type/list.htm"
+        ],
+        "target": "/sass/gs/:type"
+      }
+    ]
+  },
   "science.org": {
     "_name": "Science Magazine",
     ".": [
@@ -18638,6 +18784,15 @@
         "source": [
           "/"
         ]
+      }
+    ]
+  },
+  "stdaily.com": {
+    "_name": "中国科技网",
+    "digitalpaper": [
+      {
+        "title": "科技日报",
+        "docs": "https://docs.rsshub.app/traditional-media.html#zhong-guo-ke-ji-wang"
       }
     ]
   },
@@ -20951,6 +21106,18 @@
       {
         "title": "公众号（wechat-feeds 来源）",
         "docs": "https://docs.rsshub.app/new-media.html#wei-xin"
+      }
+    ]
+  },
+  "sogou.com": {
+    "_name": "微信",
+    "weixin": [
+      {
+        "title": "公众号（搜狗来源）",
+        "docs": "https://docs.rsshub.app/new-media.html#wei-xin",
+        "source": [
+          "/weixin"
+        ]
       }
     ]
   },
