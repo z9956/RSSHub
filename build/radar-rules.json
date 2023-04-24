@@ -4858,6 +4858,19 @@
       }
     ]
   },
+  "cqgas.cn": {
+    "_name": "重庆燃气",
+    ".": [
+      {
+        "title": "停气检修通知",
+        "docs": "https://docs.rsshub.app/forecast.html#chong-qing-ran-qi",
+        "source": [
+          "/"
+        ],
+        "target": "/cqgas/tqtz"
+      }
+    ]
+  },
   "cqwu.net": {
     "_name": "重庆文理学院",
     "www": [
@@ -4971,6 +4984,15 @@
           "/:user"
         ],
         "target": "/csdn/blog/:user"
+      }
+    ]
+  },
+  "cssn.cn": {
+    "_name": "中国社会科学网",
+    "iolaw": [
+      {
+        "title": "中国法学网",
+        "docs": "https://docs.rsshub.app/study.html#zhong-guo-she-hui-ke-xue-wang"
       }
     ]
   },
@@ -8176,6 +8198,19 @@
         "source": [
           "/"
         ]
+      }
+    ]
+  },
+  "cq.gov.cn": {
+    "_name": "重庆市人民政府",
+    "rlsbj": [
+      {
+        "title": "重庆人事考试通知公告",
+        "docs": "https://docs.rsshub.app/government.html#zhong-qing-shi-ren-min-zheng-fu",
+        "source": [
+          "/"
+        ],
+        "target": "/gov/chongqing/rsks"
       }
     ]
   },
@@ -17932,6 +17967,32 @@
           "/"
         ],
         "target": "/scnu/library"
+      }
+    ],
+    "physics": [
+      {
+        "title": "物理与电信工程学院通知",
+        "docs": "https://docs.rsshub.app/university.html#hua-nan-shi-fan-da-xue",
+        "source": [
+          "/NEWS/Notices/"
+        ],
+        "target": "/scnu/physics-school-announcements"
+      },
+      {
+        "title": "物理与电信工程学院新闻动态",
+        "docs": "https://docs.rsshub.app/university.html#hua-nan-shi-fan-da-xue",
+        "source": [
+          "/NEWS/News/"
+        ],
+        "target": "/scnu/physics-school-news"
+      },
+      {
+        "title": "物理与电信工程学院科学研究动态",
+        "docs": "https://docs.rsshub.app/university.html#hua-nan-shi-fan-da-xue",
+        "source": [
+          "/RESEARCH/"
+        ],
+        "target": "/scnu/physics-school-research-news"
       }
     ],
     "ss": [

@@ -1180,6 +1180,9 @@
     "/cpuid/cpuid/news": [
         "TonyRL"
     ],
+    "/cqgas/tqtz": [
+        "Mai19930513"
+    ],
     "/cqwu/news/:type?": [
         "Fatpandac"
     ],
@@ -1209,6 +1212,9 @@
     ],
     "/csdn/blog": [
         "Jkker"
+    ],
+    "/cssn/iolaw/:section?": [
+        "HankChow"
     ],
     "/cste/:id?": [
         "nczitzk"
@@ -2117,6 +2123,9 @@
     ],
     "/gov/beijing/kw/:channel": [
         "Fatpandac"
+    ],
+    "/gov/chongqing/rsks": [
+        "Mai19930513"
     ],
     "/gov/dianbai/:path+": [
         "ShuiHuo"
@@ -4358,6 +4367,15 @@
     ],
     "/scnu/library": [
         "fengkx"
+    ],
+    "/scnu/physics-school-announcements": [
+        "Shinonome28"
+    ],
+    "/scnu/physics-school-news": [
+        "Shinonome28"
+    ],
+    "/scnu/physics-school-research-news": [
+        "Shinonome28"
     ],
     "/scnu/ss": [
         "shengmaosu"
