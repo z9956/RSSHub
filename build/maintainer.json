@@ -748,6 +748,9 @@
     "/bjp/apod": [
         "HenryQW"
     ],
+    "/bjsk/keti/:id?": [
+        "nczitzk"
+    ],
     "/bjsk/:path?": [
         "TonyRL"
     ],
@@ -1055,7 +1058,8 @@
         "nczitzk"
     ],
     "/cls/hot": [
-        "5upernova-heng"
+        "5upernova-heng",
+        "nczitzk"
     ],
     "/cls/telegraph/:category?": [
         "nczitzk"
@@ -1769,6 +1773,9 @@
     "/fosshub/:id": [
         "nczitzk"
     ],
+    "/freebuf/articles/:type": [
+        "trganda"
+    ],
     "/freecomputerbooks/": [
         "cubroe"
     ],
@@ -2457,6 +2464,9 @@
     ],
     "/hnrb/:id?": [
         "nczitzk"
+    ],
+    "/hnu/careers": [
+        "ningyougan"
     ],
     "/hongkong/dh/:language?": [
         "nczitzk"
@@ -3488,7 +3498,7 @@
     "/newzmz/:category?": [
         "nczitzk"
     ],
-    "/newzmz/view/:id?": [
+    "/newzmz/:id?": [
         "nczitzk"
     ],
     "/nextapple/realtime/:category?": [
@@ -3793,6 +3803,15 @@
     "/odaily/:id?": [
         "nczitzk"
     ],
+    "/oeeee/web/:channel": [
+        "TimWu007"
+    ],
+    "/oeeee/app/channel/:id": [
+        "TimWu007"
+    ],
+    "/oeeee/app/reporter/:id": [
+        "TimWu007"
+    ],
     "/oilchem/:type?/:category?/:subCategory?": [
         "nczitzk"
     ],
@@ -4086,6 +4105,9 @@
     "/pubmed/trending/:filters?": [
         "nczitzk"
     ],
+    "/pumc/mdadmission": [
+        "nczitzk"
+    ],
     "/putty/changes": [
         "nczitzk"
     ],
@@ -4278,6 +4300,9 @@
     "/rfi/news": [
         "nczitzk"
     ],
+    "/right/forum/:id?": [
+        "nczitzk"
+    ],
     "/rodong/news/:language?": [
         "TonyRL"
     ],
@@ -4428,6 +4453,9 @@
     ],
     "/sdu/wh/jwc/:column?": [
         "kxxt"
+    ],
+    "/sdust/yjsy/zhaosheng/:id?": [
+        "nczitzk"
     ],
     "/secnews/index": [
         "kaiili"
@@ -4831,6 +4859,12 @@
     "/techflowpost/": [
         "nczitzk"
     ],
+    "/telecompaper/news/:caty/:year?/:country?/:type?": [
+        "nczitzk"
+    ],
+    "/telecompaper/search/:keyword?/:company?/:sort?/:period?": [
+        "nczitzk"
+    ],
     "/telegram/telegram/channel/:username/:routeParams?": [
         "DIYgod",
         "Rongronggg9"
@@ -5070,6 +5104,9 @@
     "/twitter/trends/:woeid?": [
         "sakamossan"
     ],
+    "/twitter/tweet/:id/status/:status/:original?": [
+        "LarchLiu"
+    ],
     "/twitter/user/:id/:routeParams?": [
         "DIYgod",
         "yindaheng98",
@@ -5197,70 +5234,10 @@
     "/usepanda/feeds/:id": [
         "lyrl"
     ],
-    "/ustb/yjsy/news/adma": [
-        "DA1Y1"
+    "/ustb/tj/news/:type?": [
+        "henbf"
     ],
-    "/ustb/yjsy/news/all": [
-        "DA1Y1"
-    ],
-    "/ustb/yjsy/news/cicst": [
-        "DA1Y1"
-    ],
-    "/ustb/yjsy/news/cres": [
-        "DA1Y1"
-    ],
-    "/ustb/yjsy/news/huasheng": [
-        "DA1Y1"
-    ],
-    "/ustb/yjsy/news/iet": [
-        "DA1Y1"
-    ],
-    "/ustb/yjsy/news/ihmm": [
-        "DA1Y1"
-    ],
-    "/ustb/yjsy/news/marx": [
-        "DA1Y1"
-    ],
-    "/ustb/yjsy/news/me": [
-        "DA1Y1"
-    ],
-    "/ustb/yjsy/news/metall": [
-        "DA1Y1"
-    ],
-    "/ustb/yjsy/news/mse": [
-        "DA1Y1"
-    ],
-    "/ustb/yjsy/news/ncms": [
-        "DA1Y1"
-    ],
-    "/ustb/yjsy/news/saee": [
-        "DA1Y1"
-    ],
-    "/ustb/yjsy/news/scce": [
-        "DA1Y1"
-    ],
-    "/ustb/yjsy/news/sd": [
-        "DA1Y1"
-    ],
-    "/ustb/yjsy/news/seee": [
-        "DA1Y1"
-    ],
-    "/ustb/yjsy/news/sem": [
-        "DA1Y1"
-    ],
-    "/ustb/yjsy/news/sfs": [
-        "DA1Y1"
-    ],
-    "/ustb/yjsy/news/shuli": [
-        "DA1Y1"
-    ],
-    "/ustb/yjsy/news/skl": [
-        "DA1Y1"
-    ],
-    "/ustb/yjsy/news/slam": [
-        "DA1Y1"
-    ],
-    "/ustb/yjsy/news/wenfa": [
+    "/ustb/yjsy/news/:type": [
         "DA1Y1"
     ],
     "/ustb/yzxc/tzgg": [
@@ -6165,7 +6142,6 @@
     "/zjut/design/:type": [],
     "/shu/:type?": [],
     "/shu/jwc/:type?": [],
-    "/ustb/tj/news/:type?": [],
     "/nuc/:type": [],
     "/ahau/cs_news/:type": [],
     "/ahau/jwc/:type": [],
@@ -6841,8 +6817,6 @@
     "/141jav/:type/:key?": [],
     "/141ppv/:type/:key?": [],
     "/curiouscat/user/:id": [],
-    "/telecompaper/news/:caty/:year?/:country?/:type?": [],
-    "/telecompaper/search/:keyword?/:company?/:sort?/:period?": [],
     "/newsmth/account/:id": [],
     "/newsmth/section/:section": [],
     "/kotaku/story/:type": [],
@@ -7137,7 +7111,6 @@
     "/gov/wuhan/kjj/:caty": [],
     "/fnal/news/:category?": [],
     "/x410/news": [],
-    "/right/forum/:id?": [],
     "/micmicidol": [],
     "/micmicidol/search/:label": [],
     "/hkgolden/:id?/:limit?/:sort?": [],
@@ -7150,7 +7123,6 @@
     "/netflix/newsroom/:category?/:region?": [],
     "/sbs/chinese/:category?/:id?/:dialect?/:language?": [],
     "/questmobile/report/:category?/:label?": [],
-    "/rss3/blog": [],
     "/fashionnetwork/news/:sectors?/:categories?/:language?": [],
     "/dykszx/news/:type?": [],
     "/fashionnetwork/headline/:country?": []
